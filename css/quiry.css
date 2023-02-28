@@ -1,0 +1,61 @@
+@media (max-width: 54em) {
+	html {
+  		font-size: 50%;
+	}
+
+	.operation {
+		padding: 3rem;
+	}
+}
+
+@media (max-width: 38em) {
+	nav {
+  		grid-template-columns: 1fr 1fr;
+	}
+
+	.logo {
+  		justify-self: end;
+	}
+
+	.login {	
+		grid-row: 2/3;
+  		grid-column: 1 / -1;
+  		justify-self: center;
+	}
+
+	.app {
+		grid-template-columns: 1fr;
+	}
+
+	.balance {
+		max-width: 45rem;
+	}
+
+	.movements {
+		max-width: 45rem;
+	}
+
+	.operation {
+		max-width: 45rem;
+	}
+
+	.operation--transfer {
+		grid-row: 6/7;
+	}
+
+	.operation--loan {
+		grid-row: 7/8;
+	}
+
+	.operation--close {
+		grid-row: 8/9;
+	}
+
+
+	.logout-timer {
+	  grid-row: 9/10;
+	  max-width: 45rem;
+	  padding-bottom: 2rem;
+	}
+
+}
